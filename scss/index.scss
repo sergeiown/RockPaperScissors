@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
-@import url("../scss/reset");
+
+@import "../scss/reset";
 
 html {
   font-family: "Zen Dots", cursive;
+  user-select: none;
   background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: 30%;
