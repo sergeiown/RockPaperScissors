@@ -8,7 +8,7 @@ html {
   background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: 30%;
-  background-position: 0% 155%;
+  background-position: left 120%;
   background-color: lightblue;
 }
 
@@ -27,12 +27,12 @@ body {
   h6 {
     font-size: 3rem;
     color: darkred;
-    margin: 0 auto 40px;
+    margin: 0 auto 2.5rem;
   }
 }
 
 .main {
-  height: 30vw;
+  height: 35vw;
 
   .icons {
     display: flex;
@@ -106,8 +106,8 @@ body {
 dd {
   color: darkred;
   font-weight: bold;
-  margin-left: 10px;
-  margin-right: 50px;
+  margin-left: 0.625rem;
+  margin-right: 3.125rem;
 }
 dd:last-child {
   margin-right: 0;
