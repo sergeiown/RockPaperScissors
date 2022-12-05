@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url("../scss/reset");
+
+html {
+  font-family: "Zen Dots", cursive;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: 0% 155%;
+  background-color: lightblue;
+}
+
+body {
+  width: 90%;
+  height: 90%;
+  margin: auto auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 4rem;
+  color: darkblue;
+  margin: 0 0 1rem 0;
+}
+h6 {
+  font-size: 3rem;
+  color: darkred;
+  margin: 0 auto 40px;
+}
+.main {
+  height: 30vw;
+}
+
+.icons {
+  display: flex;
+  margin: 0 auto;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+[hidden] {
+  display: none !important;
+}
+.button {
+  box-sizing: border-box;
+  width: 20vw;
+  height: 20vw;
+  border-style: none;
+  background: none;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: top;
+  font-size: 4vw;
+  transition: 0.5s;
+  line-height: 45vw;
+}
+.rock {
+  background-image: url(../img/rock_icon.svg);
+}
+.paper {
+  background-image: url(../img/paper_icon.svg);
+}
+.scissors {
+  background-image: url(../img/scissors_icon.svg);
+}
+.button:hover {
+  opacity: 0.7;
+  transform: scale(1.2);
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+}
+.results {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 3rem;
+  color: darkgreen;
+}
+.results img {
+  box-sizing: border-box;
+  width: 20vw;
+  height: 20vw;
+}
+
+.restart-btn {
+  margin: 3rem 0;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border: 0.2rem solid darkgreen;
+  border-radius: 1rem;
+  background-color: rgba(144, 238, 144, 0.5);
+}
+
+.restart-btn:hover {
+  background-color: lightgreen;
+}
+
+dd {
+  color: darkred;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+dd:last-child {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 50%;
+  }
+}
