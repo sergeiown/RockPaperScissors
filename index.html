@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>'Rock Paper Scissors' GAME</h1>
+      <h6>Choose your destiny!</h6>
+    </header>
+
+    <main class="main">
+      <div class="icons">
+        <button class="rock button">Rock</button>
+        <button class="paper button">Paper</button>
+        <button class="scissors button">Scissors</button>
+      </div>
+
+      <div class="results" hidden>
+        <img class="user-choice" src="./img/paper_icon.svg" />
+        <div>
+          <h3 class="result">DRAW</h3>
+          <button class="restart-btn">Play Again</button>
+        </div>
+        <img class="opp-choice" src="./img/paper_icon.svg" />
+      </div>
+    </main>
+
+    <footer class="footer">
+      <dl class="stats">
+        <dt>WON:</dt>
+        <dd>0</dd>
+
+        <dt>LOST:</dt>
+        <dd>0</dd>
+
+        <dt>DRAW:</dt>
+        <dd>0</dd>
+      </dl>
+    </footer>
+  </body>
+</html>
